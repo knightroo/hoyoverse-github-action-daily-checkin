@@ -36,13 +36,9 @@ jobs:
       with:
         arguments: build test
       env:
-        USER_0_ID: ${{ secrets.MY_ATOKEN_ID }}
-        USER_0_TOKEN: ${{ secrets.MY_ATOKEN }}
-        USER_1_ID: ${{ secrets.MY_BTOKEN_ID }}
-        USER_1_TOKEN: ${{ secrets.MY_BTOKEN }}
-        USER_2_ID: ${{ secrets.MY_CTOKEN_ID }}
-        USER_2_TOKEN: ${{ secrets.MY_CTOKEN }}
-        USER_3_ID: ${{ secrets.MY_DTOKEN_ID }}
-        USER_3_TOKEN: ${{ secrets.MY_DTOKEN }}
-        USER_4_ID: ${{ secrets.MY_ETOKEN_ID }}
-        USER_4_TOKEN: ${{ secrets.MY_ETOKEN }}
+        honkai_ID: ${{ secrets.honkai_ID }}
+        honkai_TOKEN: ${{ secrets.honkai_TOKEN }}
+        alka_ID: ${{ secrets.alka_ID }}
+        alka_TOKEN: ${{ secrets.alka_TOKEN }}
+        star_ID: ${{ secrets.star_ID }}
+        star_TOKEN: ${{ secrets.star_TOKEN }}
