@@ -23,29 +23,20 @@ public class CheckInDailyTest {
         HoyoDaily.checkIn(feature, List.of(
 
                 CheckInAction.builder()
-                        .token(HoyoToken.of(System.getenv("USER_0_ID"), System.getenv("USER_0_TOKEN")))
+                        .token(HoyoToken.of(System.getenv("honkai_ID"), System.getenv("honkai_TOKEN")))
                         .game(GameType.GENSHIN_IMPACT)
                         .game(GameType.HONKAI_IMPACT_3RD)
                         .game(GameType.HONKAI_STAR_RAIL)
                         .build(),
 
                 CheckInAction.builder()
-                        .token(HoyoToken.of(System.getenv("USER_1_ID"), System.getenv("USER_1_TOKEN")))
+                        .token(HoyoToken.of(System.getenv("alka_ID"), System.getenv("alka_TOKEN")))
                         .game(GameType.HONKAI_STAR_RAIL)
                         .build(),
             
-                CheckInAction.builder()
-                        .token(HoyoToken.of(System.getenv("USER_2_ID"), System.getenv("USER_2_TOKEN")))
-                        .game(GameType.HONKAI_STAR_RAIL)
-                        .build(),
-            
-                CheckInAction.builder()
-                        .token(HoyoToken.of(System.getenv("USER_3_ID"), System.getenv("USER_3_TOKEN")))
-                        .game(GameType.HONKAI_STAR_RAIL)
-                        .build(),
 
                 CheckInAction.builder()
-                        .token(HoyoToken.of(System.getenv("USER_4_ID"), System.getenv("USER_4_TOKEN")))
+                        .token(HoyoToken.of(System.getenv("star_ID"), System.getenv("star_TOKEN")))
                         .game(GameType.HONKAI_STAR_RAIL)
                         .game(GameType.GENSHIN_IMPACT)
                         .game(GameType.HONKAI_IMPACT_3RD)
