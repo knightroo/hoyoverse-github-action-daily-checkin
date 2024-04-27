@@ -36,9 +36,9 @@ jobs:
       with:
         arguments: build test
       env:
-        honkai_ID: ${{ secrets.honkai_ID }}
-        honkai_TOKEN: ${{ secrets.honkai_TOKEN }}
-        alka_ID: ${{ secrets.alka_ID }}
-        alka_TOKEN: ${{ secrets.alka_TOKEN }}
-        star_ID: ${{ secrets.star_ID }}
-        star_TOKEN: ${{ secrets.star_TOKEN }}
+        honkai_ID: ${{ secrets.HONKAI_ID }}
+        honkai_TOKEN: ${{ secrets.HONKAI_TOKEN }}
+        alka_ID: ${{ secrets.ALKA_ID }}
+        alka_TOKEN: ${{ secrets.ALKA_TOKEN }}
+        star_ID: ${{ secrets.STAR_ID }}
+        star_TOKEN: ${{ secrets.STAR_TOKEN }}
